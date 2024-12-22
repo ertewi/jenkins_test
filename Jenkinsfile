@@ -19,7 +19,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                        ls -la
+                        npm install
                     '''
                 }
             }
